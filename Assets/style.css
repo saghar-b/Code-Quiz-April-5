@@ -54,7 +54,7 @@ text-align: center;
     text-align: center;
     cursor: pointer;
 }
-.q1, .q2 ,.q3, .q4 {
+#q1, #q2 ,#q3, #q4 {
     visibility: hidden;
     margin-bottom: 10px;
 }
