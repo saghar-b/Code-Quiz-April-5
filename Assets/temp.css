@@ -1,0 +1,67 @@
+header {
+    display: flex;
+    font-display: row;
+    justify-content: space-between;
+}
+#start{
+    margin: auto;
+    width: 600px;
+    padding: 10px;
+    text-align: center;
+    visibility: visible;
+    
+}
+
+.btn {
+    border: none;
+    background-color: rgb(8, 86, 175);
+    border-radius: 5px;
+
+    display: inline-block;
+    font-size: 22px;
+    line-height: 22px;
+    margin: 16px 16px 16px 20px;
+    padding: 14px 34px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.questionbtn {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 200px;
+    text-align: center;
+    margin-left: 35%;
+    font-size: 22px;
+    line-height: 22px;
+    padding: 14px 34px;
+    visibility: hidden;
+}
+
+#q1, #q2, #q3, #q4 {
+    margin-bottom: 10px;
+}
+
+.questionbtn section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+}
+
+.questionbtn section h4{
+   max-width: 230px;
+}
+.allDone{
+    position: relative;
+    bottom: 500px;
+    text-align: center;
+    visibility: hidden;
+}
+.result{
+    position: relative;
+    bottom: 620px;
+    text-align: center;
+    visibility: hidden;
+}
