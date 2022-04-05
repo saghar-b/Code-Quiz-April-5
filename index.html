@@ -13,12 +13,9 @@
     <header>
 
         <h5 id="score">score</h6>
-            <h5 id="time">timer</h6>
+            <h5 id="time">time : 0</h6>
     </header>
     <main>
-
-
-
         <div id="start">
             <h2>Coding Quiz Challange</h3>
                 <h4>this quiz is about Geography. Try to answer the question in a minum time. Remember the incorrect
@@ -33,7 +30,6 @@
                 <h4></h4>
 
             </section>
-
             <button class="optBtn" id="q1" data-name=""></button>
             <button class="optBtn" id="q2" data-name=""></button>
             <button class="optBtn" id="q3" data-name=""></button>
@@ -41,20 +37,24 @@
 
             <p></p>
         </div>
+
         <div class="allDone">
             <h2>All Done!</h2>
             <h3></h3>
-            <form action=""></form>
-            <h3>Your initial:</h3>
+
+
+            <lable>Enter initial:</lable>
             <input type="text" name="initial" id="initial">
-            <button id="initialBtn" type="submit">Submit</button>
+            <button id="initialBtn">Submit</button>
+
         </div>
+
         <div class="result">
-            <h2>Heighes Scores</h2>
-            <label id="scoresLable" for=""></label>
+            <h2>Heighscores</h2>
+            <ul id="scoresLable"></ul>
             <section class="decision">
                 <button id="playAgainBtn" type="submit">Play Again</button>
-                <button id="cancel" type="submit">Cancel</button>
+                <button id="cancel" type="submit">Clear Highscore</button>
 
             </section>
         </div>

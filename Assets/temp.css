@@ -3,13 +3,32 @@ header {
     font-display: row;
     justify-content: space-between;
 }
-#start{
+
+li {
+    margin-bottom: 10px;
+    list-style: none;
+    background-color: burlywood;
+}
+
+#q1, #q2, #q3, #q4 {
+    margin-bottom: 10px;
+}
+/* start quiz button  */
+#start {
     margin: auto;
     width: 600px;
     padding: 10px;
     text-align: center;
     visibility: visible;
-    
+
+}
+
+#scoresLable {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    position: relative;
+    left: 550px;
 }
 
 .btn {
@@ -26,6 +45,7 @@ header {
     cursor: pointer;
 }
 
+/* question button style */
 .questionbtn {
     width: fit-content;
     display: flex;
@@ -40,26 +60,30 @@ header {
     visibility: hidden;
 }
 
-#q1, #q2, #q3, #q4 {
-    margin-bottom: 10px;
-}
+
 
 .questionbtn section {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
 }
 
-.questionbtn section h4{
-   max-width: 230px;
+.questionbtn section h4 {
+    max-width: 230px;
 }
-.allDone{
+
+/* all done with the question section */
+.allDone {
     position: relative;
     bottom: 500px;
     text-align: center;
     visibility: hidden;
 }
-.result{
+
+/* final result */
+.result {
+    display: flex;
+    flex-direction: column;
     position: relative;
     bottom: 620px;
     text-align: center;
